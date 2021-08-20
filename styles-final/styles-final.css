@@ -1,0 +1,177 @@
+* { 
+    background-color: rosybrown;
+}
+
+.carrito  {
+    padding: 30px;
+    float: right;
+    padding: 15px 15px 15px 15px;
+    
+    
+}
+.usuario{
+    padding: 30px;
+    float: right;
+    padding: 15px 15px 15px 15px;
+
+}
+.delizia {
+    margin-left: 400px;
+}
+
+.img-galeria :hover {
+    transform: scale(1.3,1.3);
+    
+}
+
+
+.img-galeria{
+    width: 25%;
+    height: 250px;
+    float: left;
+    /* recibe 4 parámetros: Superior, derecha, inferior e izquierda */
+    margin: 5px 0 0 0;
+    padding: 10px 0 5px 80px;
+    box-sizing: border-box;
+    transition: all 1s linear ;
+    text-align: center;
+    padding-left: 4px ;
+    margin-top: 60px;
+    
+}
+
+
+.menu {
+    list-style: none;
+    text-align: center;
+    float:left;
+    position:absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: -30px;
+    
+    
+   
+}
+.menu li {
+    float:left;
+    background-color:rgb(122, 121, 114);
+    color:white;
+    width: 200px;
+    height: 35px;
+    padding: 10px 25px;
+    cursor: pointer;
+    padding-bottom: 1px; 
+    margin: 2px ;
+    margin-top: 10px;
+    list-style: none;
+    text-align: center; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sub-menu:hover {
+    
+    cursor: pointer;
+    position: absolute;
+    
+    
+}
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin-top:10px;
+    margin-left: -25px;
+    text-align: left;
+
+}
+.sub-menu li {
+    clear: left;
+
+}
+.sub-menu li:hover{
+    background-color: rgb(10, 4, 4);
+    font-weight: bold;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+aside .oferta {
+    width: 40%;
+    height: 320px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+
+
+.texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 28%;
+    text-align: center;
+    width: 75%;
+    height: 30px;
+    background-color: darkcyan;
+    padding: 10px 5px 5px 5px;
+
+}
+section {
+    width: 17%;
+    border: dotted;
+    height: 380px;
+    background-color:rosybrown;
+    margin-top: -20%;
+    box-sizing: border-box;
+    float: right;
+    padding: 10px ;
+    
+}
+ 
+.logos {
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin: 5px;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+}
+.audio {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: 2px dashed brown;
+    
+}
+.video {
+    margin-top: 40px;
+    border:  2px dashed brown;
+    border-radius:  0 0 15px 15px;
+    width: 100%;
+
+}
+.video-youtube {
+    width: 80px;
+    margin: 50px auto;
+    text-align: center;
+    margin-left: 400px;
+}
+
+footer .pie {
+    border: double;
+    width: 20%;
+    background-color:black;
+    height: 170px;
+    box-sizing: border-box;
+    float:left;
+    margin: 25px 0 15px 0;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}

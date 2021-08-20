@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles-final/registro.css">
+    <title>Document</title>
+</head>
+<body>
+    <img  class="delizia" src="/imagenes/logo.webp" alt="logo" height="180px" width="600px">
+
+    <div class="relleno">
+        <form action="/registrarCliente.php" method="POST"> 
+            <div class="titulo" >
+                <marquee ><h1>Registro de Cliente</h1></marquee>
+            </div>
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="cbxTipoDoc" class="label">Tipo Documento</label>
+                </div>
+                <select name="tipoDoc" id="cbxTipoDoc">
+                    <option value="1">DNI</option>
+                    <option value="2">Pasaporte</option>
+                    <option value="3">Carnet de Extranjería</option>
+                    <option value="4">RUC</option>
+                </select>
+            </div>
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="txtNroDoc" class="label">Número Documento</label>
+                </div>
+                <input type="text" id="txtNroDoc" name="nroDoc" required placeholder="Ingrese número documento" maxlength="8">
+            </div>
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="" class="label">Tipo Cliente</label>
+                </div>
+                <input type="radio" id="" name="rdbTipCli"><label for="" class="label">Frecuente</label>&ensp;&ensp;&ensp;
+                <input type="radio" id="" name="rdbTipCli"><label for="" class="label">nuevo</label>&ensp;&ensp;&ensp;
+                
+            </div>
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="txtNombre"class="label">Nombre</label>
+                </div>
+                <input type="text" id="txtNombre" name="nombre" required>
+            </div>
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="txtFecNac" class="label">Fecha Nacimiento</label>
+                </div>
+                <input type="date" id="txtFecNac" name="fecNac" title="Usar formato dd/mm/yyyy">
+            </div>
+            
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="txtCorreo" class="label" >Correo Electrónico</label>
+                </div>
+                <input type="email" id="txtCorreo" name="correo" placeholder="Ingrese correo" readonly value="">
+            </div>
+            <div class="divRow"> 
+                <div class="lblEtiqueta">
+                    <label for="txtPassword" class="label">Contraseña</label>
+                </div>
+                <input type="password" id="txtPassword" name="correo" placeholder="Ingrese contraseña">
+            </div>
+            
+            <div class="divRow">
+                <div class="lblEtiqueta">
+                    <label for="txtCantVtas" class="label">Teléfono</label>
+                </div>
+                <input type="tel" id="txtTel" name="telefono" required pattern="000">
+            </div>
+            
+            <div class="divRow">
+                <input type="submit" value="Registrar">
+            </div>
+        </form>
+    </div>
+        <footer>
+            <ul class="pie">
+                AYUDA Y SERVICIO:
+                <br>
+                <br>
+                    Zonas de repote <br>
+                    Contactanos <br>
+                    Comprobante electronico <br>
+                    Preguntas frecuentes <br>
+                    Trabaja con nosotros <br>
+                
+            </ul>
+            <ul class="pie">
+                LEGALES Y POLITICA:
+                <br>
+                <br>
+                Politica de privacidad <br>
+                condiciones de uso <br>
+                Terminos y condiciones <br>
+                Politica de privacidad <br>
+                Politica de delivery <br>
+            </ul>
+            <ul class="pie">
+                SOBRE NOSOTROS
+                <br>
+                <br>
+                Reseña Historica <br>
+                mision y vision
+    
+            </ul>
+            <ul class="pie">
+                DELIVERY - TELEFONOS
+                <br>
+                <br>
+                lima:345678 <br>
+                Direccion:Jr.Uma 154-Lince <br>
+            </ul>
+            <ul class="pie">
+                <img class="logos" src="/imagenes/descarga.png" alt="">
+                <img  class="logos" src="/imagenes/redes.jpg" alt="">
+            </ul>
+        </footer> 
+    
+</body>
+</html>
