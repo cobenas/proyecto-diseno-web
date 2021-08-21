@@ -3,6 +3,6 @@
 ?>
 
 <script>
-    window.location = "index.html";
+    window.location = "trabajo-final.html";
 </script>
 
